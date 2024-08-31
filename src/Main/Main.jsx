@@ -1,8 +1,14 @@
 import React from 'react'
-
+import NAVelem from './NAVelem'
 const Main = () => {
   return (
-    <div>Main</div>
+ <>
+ <div>
+  <nav>
+    <NAVelem/>
+  </nav>
+ </div>
+ </>
   )
 }
 
