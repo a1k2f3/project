@@ -7,7 +7,7 @@ const Navbar = () => {
     <div>
 <nav>
 <ul>
-        {item.map((items) => <NAVelem Element={items} />)}
+        {item.map((items) => <NAVelem itemlist={items} />)}
       </ul>
 </nav>
 

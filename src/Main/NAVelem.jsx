@@ -2,7 +2,7 @@ import React from 'react'
 
 const NAVelem = (props) => {
   return (
-   <li>{props.Element}</li>
+   <li>{props.itemlist}</li>
   )
 }
 

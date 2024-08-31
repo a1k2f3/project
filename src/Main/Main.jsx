@@ -1,11 +1,11 @@
 import React from 'react'
-import NAVelem from './NAVelem'
+import Navbar from './Navbar'
 const Main = () => {
   return (
  <>
  <div>
   <nav>
-    <NAVelem/>
+  <Navbar/>
   </nav>
  </div>
  </>
