@@ -11,9 +11,9 @@ const Table = () => {
             <th>view</th>
         </tr>
         <tr>
-            <td><button className='bg-red-600 w-96 border border-rounded-4' >Absent</button></td>
-            <td><button className='bg-green-500 w-100'>Leave</button></td>
-            <td><button className='bg-slate-300 w-100'>View</button></td>
+            <td><button className='bg-red-600 w-full border rounded-md' >Absent</button></td>
+            <td><button className='bg-green-500 w-full border rounded-md'>Leave</button></td>
+            <td><button className='bg-slate-300 w-full border rounded-md'>View</button></td>
             
         </tr>
         
