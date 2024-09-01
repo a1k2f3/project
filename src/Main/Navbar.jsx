@@ -6,7 +6,7 @@ const Navbar = () => {
     return (
     <div>
 <nav>
-<ul className=' flex item-center justify-evenly bg-red-200 '>
+<ul className=' flex item-center justify-evenly  p-5 bg-red-200 '>
         {item.map((items) => <NAVelem itemlist={items} />)}
       </ul>
 </nav>
