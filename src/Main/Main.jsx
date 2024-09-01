@@ -1,5 +1,6 @@
 import React from 'react'
 import Navbar from './Navbar'
+import Table from './Table'
 const Main = () => {
   return (
     <>
@@ -9,22 +10,8 @@ const Main = () => {
         </nav>
       </div>
       <main>
-        <div >
-        <table>
-        <tr>
-            <th>Mark Attendence</th>
-            <th>Mark Leave</th>
-            <th>view</th>
-        </tr>
-        <tr>
-            <td><button>Absent</button></td>
-            <td><button>Leave</button></td>
-            <td><button>View</button></td>
-            
-        </tr>
+<Table/>
         
-    </table>
-        </div>
       </main>
     </>
   )
